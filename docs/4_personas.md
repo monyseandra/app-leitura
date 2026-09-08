@@ -12,8 +12,8 @@
 
 | Campo | Descrição |
 | :---- | :---- |
-| **Idade** | 22 anos |
-| **Ocupação** | Empregada (CLT), rotina dividida entre trabalho e vida pessoal |
+| **Idade** | 22 anos. |
+| **Ocupação** | Empregada (CLT), rotina dividida entre trabalho e vida pessoal. |
 | **Citação** | "Eu descubro livros o tempo todo, mas depois esqueço onde vi a recomendação ou nem lembro o nome." |
 | **Objetivos** | Registrar os livros lidos e em andamento de forma simples e rápida; conseguir guardar sua opinião sobre cada livro (nota, resenha) sem processos burocráticos; sentir que consegue "dar conta" da própria leitura apesar da rotina corrida. |
 | **Nível de tecnologia** | Alto — usa smartphone diariamente; já teve contato com apps de leitura, mas abandonou por exigirem muitas etapas para um simples cadastro. |
@@ -40,8 +40,8 @@
 
 | Campo | Descrição |
 | :---- | :---- |
-| **Idade** | 19 anos |
-| **Ocupação** | Estudante universitária, estagiária |
+| **Idade** | 19 anos. |
+| **Ocupação** | Estudante universitária, estagiária. |
 | **Citação** | "Eu tenho meta de ler 20 livros por ano, mas sempre acabo perdendo a conta de quantos já li." |
 | **Objetivos** | Acompanhar sua meta anual de leitura de forma visual e clara; registrar resenhas e notas (de 1 a 5) de forma simples; ter uma visão geral do que já leu no ano para não se perder. |
 | **Nível de tecnologia** | Alto — usa o celular para tudo; já usa as "Notas" do celular para registrar livros, mas sente falta de um sistema melhor. |
@@ -68,8 +68,8 @@
 
 | Campo | Descrição |
 | :---- | :---- |
-| **Idade** | 21 anos |
-| **Ocupação** | Trabalha e estuda |
+| **Idade** | 21 anos. |
+| **Ocupação** | Trabalha e estuda. |
 | **Citação** | "Hoje eu uso mais o Kindle mesmo — parei de anotar no Skoob esse ano." |
 | **Objetivos** | Continuar aproveitando as sugestões automáticas do próprio Kindle; ter estatísticas de leitura confiáveis sem precisar manter um segundo app à parte; centralizar, se possível, o progresso que hoje fica dividido entre dois lugares. |
 | **Nível de tecnologia** | Alto — leitora de longa data em e-reader; já testou um app dedicado de leitura (Skoob), mas encontrou instabilidade. |
