@@ -40,7 +40,7 @@ O público-alvo do nosso projeto (leitores que querem organizar suas leituras) j
 | :---: |
 | *Figura 1: Detalhes de um livro no Skoob.* |
 
-| <img src="imagens/concorrentes/skoob/livro _2_skoob.png" width="800"> |
+| <img src="imagens/concorrentes/skoob/livro_2_skoob.png" width="800"> |
 | :---: |
 | *Figura 2: Detalhes de um livro no Skoob (continuação).* |
 
