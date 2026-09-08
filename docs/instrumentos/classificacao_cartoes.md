@@ -35,5 +35,3 @@
 - Se "recomendações" (7) e "estatísticas" (6) acabam agrupadas junto com metas/progresso (4, 5) ou tratadas como algo separado.
 - Se os itens sociais (12, 13) formam um grupo próprio, se ficam misturados com outra coisa, ou se algum participante simplesmente não sabe onde encaixá-los (sinal de baixo interesse nessa funcionalidade).
 - Se avaliação/resenha/anotação (8, 9, 10) tendem a ficar juntas ou separadas do registro básico do livro (1, 2).
-
-**Registro dos resultados:** para cada participante, anotar o agrupamento feito, o nome dado a cada grupo e a justificativa (pergunta 3), e depois consolidar tudo numa tabela comparativa entre participantes — no mesmo formato usado em `respostas_entrevistas.md`.
