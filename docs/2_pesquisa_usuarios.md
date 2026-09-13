@@ -21,7 +21,7 @@
 
 ## 2) Aspectos Éticos
 
-Sim, o projeto considera aspectos éticos, pois envolve a coleta de dados pessoais sensíveis ao contexto (hábitos de leitura e comportamento de uso de aplicativos), ainda que não envolva dados como saúde, dados financeiros, ou informações de identificação direta. Pelos conceitos vistos em aula, toda pesquisa com pessoas exige consentimento informado e minimização de dados — coletar apenas o necessário para responder às perguntas de pesquisa, e não mais que isso.
+Sim, o projeto considera aspectos éticos, pois envolve a coleta de dados pessoais de contexto (hábitos de leitura e comportamento de uso de aplicativos), ainda que não envolva dados como saúde, dados financeiros, ou informações de identificação direta. Pelos conceitos vistos em aula, toda pesquisa com pessoas exige consentimento informado e minimização de dados — coletar apenas o necessário para responder às perguntas de pesquisa, e não mais que isso.
 
 - **Consentimento**: para o questionário, o consentimento não foi embutido dentro do Google Forms — em vez disso, cada pessoa recebeu uma mensagem de permissão pelo WhatsApp junto com o link, explicando o objetivo acadêmico da pesquisa e informando que as respostas seriam anônimas, antes de decidir se responderia. Na entrevista e na classificação de cartões, o mesmo tipo de mensagem foi enviado antes de qualquer coleta, explicando o objetivo do projeto, que a participação é voluntária, que a pessoa pode desistir a qualquer momento sem prejuízo, e pedindo uma confirmação explícita ("sim, aceito") antes de começar.
 - **Armazenamento, anonimização e descarte (LGPD — Lei n.º 13.709/2018)**:
