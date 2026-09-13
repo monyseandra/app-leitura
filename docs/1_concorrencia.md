@@ -31,22 +31,22 @@ O público-alvo do nosso projeto (leitores que querem organizar suas leituras) j
 
 | <img src="imagens/concorrentes/skoob/menu_skoob.png" width="800"> |
 | :---: |
-| *Figura 1: Menu do Skoob.* |
+| *Figura 3: Menu do Skoob.* |
 
 **Tela de detalhes de um livro**
 
 
 | <img src="imagens/concorrentes/skoob/livro_1_skoob.png" width="800"> |
 | :---: |
-| *Figura 1: Detalhes de um livro no Skoob.* |
+| *Figura 4: Detalhes de um livro no Skoob.* |
 
 | <img src="imagens/concorrentes/skoob/livro_2_skoob.png" width="800"> |
 | :---: |
-| *Figura 2: Detalhes de um livro no Skoob (continuação).* |
+| *Figura 5: Detalhes de um livro no Skoob (continuação).* |
 
 | <img src="imagens/concorrentes/skoob/livro_3_skoob.png" width="800"> |
 | :---: |
-| *Figura 3: Detalhes de um livro no Skoob (continuação).* |
+| *Figura 6: Detalhes de um livro no Skoob (continuação).* |
 
 ### 1.2 Goodreads
 
@@ -56,61 +56,61 @@ O público-alvo do nosso projeto (leitores que querem organizar suas leituras) j
 
 | <img src="imagens/concorrentes/goodreads/telaInicial_1_goodreads.png" width="800"> |
 | :---: |
-| *Figura 1: Tela inicial do Goodreads.* |
+| *Figura 7: Tela inicial do Goodreads.* |
 
 | <img src="imagens/concorrentes/goodreads/telaInicial_2_goodreads.png" width="800"> |
 | :---: |
-| *Figura 2: Tela inicial do Goodreads (continuação).* |
+| *Figura 8: Tela inicial do Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/telaInicial_3_goodreads.png" width="800"> |
 | :---: |
-| *Figura 3: Tela inicial do Goodreads (continuação).* |
+| *Figura 9: Tela inicial do Goodreads (continuação).* |
 
 **Menu de navegação**
 
 
 | <img src="imagens/concorrentes/goodreads/browse_goodreads.png" width="800"> |
 | :---: |
-| *Figura 1: Menu do Goodreads.* |
+| *Figura 10: Menu do Goodreads.* |
 
 **Tela de detalhes de um livro**
 
 
 | <img src="imagens/concorrentes/goodreads/livro_1_goodreads.png" width="800"> |
 | :---: |
-| *Figura 1: Detalhes de um livro no Goodreads.* |
+| *Figura 11: Detalhes de um livro no Goodreads.* |
 
 | <img src="imagens/concorrentes/goodreads/livro_2_goodreads.png" width="800"> |
 | :---: |
-| *Figura 2: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 12: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_3_goodreads.png" width="800"> |
 | :---: |
-| *Figura 3: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 13: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_4_goodreads.png" width="800"> |
 | :---: |
-| *Figura 4: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 14: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_5_goodreads.png" width="800"> |
 | :---: |
-| *Figura 5: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 15: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_6_goodreads.png" width="800"> |
 | :---: |
-| *Figura 6: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 16: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_7_goodreads.png" width="800"> |
 | :---: |
-| *Figura 7: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 17: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_8_goodreads.png" width="800"> |
 | :---: |
-| *Figura 8: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 18: Detalhes de um livro no Goodreads (continuação).* |
 
 | <img src="imagens/concorrentes/goodreads/livro_9_goodreads.png" width="800"> |
 | :---: |
-| *Figura 9: Detalhes de um livro no Goodreads (continuação).* |
+| *Figura 19: Detalhes de um livro no Goodreads (continuação).* |
 
 ### 1.3 The StoryGraph
 
@@ -120,61 +120,61 @@ O público-alvo do nosso projeto (leitores que querem organizar suas leituras) j
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_1_story.png" width="800"> |
 | :---: |
-| *Figura 1: Tela inicial do StoryGraph.* |
+| *Figura 20: Tela inicial do StoryGraph.* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_2_story.png" width="800"> |
 | :---: |
-| *Figura 2: Tela inicial do StoryGraph (continuação).* |
+| *Figura 21: Tela inicial do StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_3_story.png" width="800"> |
 | :---: |
-| *Figura 3: Tela inicial do StoryGraph (continuação).* |
+| *Figura 22: Tela inicial do StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_4_story.png" width="800"> |
 | :---: |
-| *Figura 4: Tela inicial do StoryGraph (continuação).* |
+| *Figura 23: Tela inicial do StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_5_story.png" width="800"> |
 | :---: |
-| *Figura 5: Tela inicial do StoryGraph (continuação).* |
+| *Figura 24: Tela inicial do StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_6_story.png" width="800"> |
 | :---: |
-| *Figura 6: Tela inicial do StoryGraph (continuação).* |
+| *Figura 25: Tela inicial do StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_7_story.png" width="800"> |
 | :---: |
-| *Figura 7: Tela inicial do StoryGraph (continuação).* |
+| *Figura 26: Tela inicial do StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/telaInicial_8_story.png" width="800"> |
 | :---: |
-| *Figura 8: Tela inicial do StoryGraph (continuação).* |
+| *Figura 27: Tela inicial do StoryGraph (continuação).* |
 
 **Menu de navegação**
 
 
 | <img src="imagens/concorrentes/storygraph/menu_story.png" width="800"> |
 | :---: |
-| *Figura 1: Menu do StoryGraph.* |
+| *Figura 28: Menu do StoryGraph.* |
 
 | <img src="imagens/concorrentes/storygraph/challenges_story.png" width="800"> |
 | :---: |
-| *Figura 2: Tela de Desafios de Leitura do The StoryGraph, com destaque para os desafios ativos e a busca por categorias..* |
+| *Figura 29: Tela de Desafios de Leitura do The StoryGraph, com destaque para os desafios ativos e a busca por categorias..* |
 
 **Tela de detalhes de um livro**
 
 
 | <img src="imagens/concorrentes/storygraph/livro_1_story.png" width="800"> |
 | :---: |
-| *Figura 1: Detalhes de um livro no StoryGraph.* |
+| *Figura 30: Detalhes de um livro no StoryGraph.* |
 
 | <img src="imagens/concorrentes/storygraph/livro_2_story.png" width="800"> |
 | :---: |
-| *Figura 1: Detalhes de um livro no StoryGraph (continuação).* |
+| *Figura 31: Detalhes de um livro no StoryGraph (continuação).* |
 
 | <img src="imagens/concorrentes/storygraph/livro_3_story.png" width="800"> |
 | :---: |
-| *Figura 1: Detalhes de um livro no StoryGraph (continuação).* |
+| *Figura 32: Detalhes de um livro no StoryGraph (continuação).* |
 
 ## 2) Características e funcionalidades de cada concorrente
 
@@ -196,7 +196,7 @@ O público-alvo do nosso projeto (leitores que querem organizar suas leituras) j
 - **Goodreads**: é criticado de forma consistente por múltiplas fontes independentes por ter recomendações pouco relevantes e mais voltadas a estimular vendas na Amazon do que a entender o gosto real do leitor; o design é frequentemente descrito como desatualizado ("parece um produto de 2010"), sem atualizações significativas há anos, e a parte social é chamada de "sem graça" por reviews especializados. Fontes: [Review do Goodreads 2026 — Bookwise](https://bookwiseapp.com/blog/goodreads-review-is-it-still-worth-using-in-2026); [Guia do Goodreads — Bookwise](https://bookwiseapp.com/blog/the-goodreads-app-a-complete-guide-to-features-how-it-works); [Comparativo de 13 apps de leitura — House Lucia](https://houselucia.com/book-tracking-apps-2026/); [Melhores alternativas ao Goodreads em 2026 — Bookwise](https://bookwiseapp.com/blog/goodreads-alternatives).
 - **The StoryGraph**: é bem avaliado especificamente pelo motor de recomendação, apontado por diferentes fontes como um dos melhores recursos do app e como seu principal diferencial frente ao Goodreads; um guia comparativo de 2026 o elegeu como "vencedor" entre sete rastreadores de leitura testados. Fontes: [Review do StoryGraph — Popular Science](https://www.popsci.com/diy/storygraph/); [Melhor rastreador de livros em 2026 — Beyond the Spine Reviews](https://beyondthespinereviews.com/2025/12/29/best-book-tracker/).
 
-> Pentente: colher 2-3 prints reais de avaliações de usuários (Google Play / App Store) de cada concorrente, para ilustrar esta seção com evidências primárias, além das fontes secundárias acima.
+> Pendente: colher 2-3 prints reais de avaliações de usuários (Google Play / App Store) de cada concorrente, para ilustrar esta seção com evidências primárias, além das fontes secundárias acima.
 
 ## 4) Preços e modelos de negócio
 
