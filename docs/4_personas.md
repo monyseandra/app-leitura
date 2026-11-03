@@ -8,7 +8,9 @@
 
 ## Persona primária 1: Yasmin Duarte
 
-*(foto de rosto — gerar em thispersondoesnotexist.com)*
+<div align="center">
+  <img src="imagens/YasminDuarte.png" width="800">
+</div>
 
 | Campo | Descrição |
 | :---- | :---- |
@@ -36,7 +38,9 @@
 
 ## Persona primária 2: Camila Ferreira
 
-*(foto de rosto — gerar em thispersondoesnotexist.com)*
+<div align="center">
+  <img src="imagens/CamilaFerreira.png" width="800">
+</div>
 
 | Campo | Descrição |
 | :---- | :---- |
@@ -64,7 +68,9 @@
 
 ## Persona secundária: Letícia Ramos
 
-*(foto de rosto — gerar em thispersondoesnotexist.com)*
+<div align="center">
+  <img src="imagens/LetíciaRamos.png" width="800">
+</div>
 
 | Campo | Descrição |
 | :---- | :---- |
