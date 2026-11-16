@@ -4,37 +4,43 @@
 
 | Característica | Descrição |
 | :---- | :---- |
-| Descrição do Software | Aplicativo mobile (iOS/Android) para registro, acompanhamento e recomendação de leitura, com navegação por abas e telas single-page por funcionalidade. |
-| Descrição do Hardware | Smartphone com conexão à internet (Wi-Fi ou dados móveis) para busca de livros e sincronização; funcionamento básico offline para consulta da estante já carregada localmente. |
-| Capacidades da Plataforma | Armazenamento de dados na nuvem (sincronização entre dispositivos); integração com a API do Kindle/Amazon para importar progresso de leitura automaticamente; notificações push opcionais para lembretes de meta. |
-| Restrições da Plataforma | Depende de conexão à internet para buscar novos livros e sincronizar; a integração com o Kindle depende da disponibilidade e estabilidade da API da Amazon, fora do controle da equipe; não haverá leitor de código de barras na primeira versão (funcionalidade futura). |
+| Descrição do Software | Plataforma web responsiva denominada Minha Estante, voltada à leitura, organização e avaliação de livros. O sistema permite que os usuários pesquisem livros, organizem suas leituras em uma estante virtual, acompanhem seu progresso, atribuam notas e publiquem resenhas e opiniões sobre as obras. A navegação é organizada por seções, como Estante, Progresso, Buscar e Perfil, proporcionando uma experiência integrada em uma única plataforma. |
+| Descrição do Hardware | Computadores, notebooks, tablets e smartphones com acesso à internet, utilizando navegadores modernos, como Google Chrome e Microsoft Edge. A interface deve se adaptar aos diferentes tamanhos de tela, permitindo a utilização tanto em dispositivos móveis quanto em desktops. |
+| Capacidades da Plataforma | Interface responsiva; pesquisa e descoberta de livros; organização de obras em uma estante virtual; classificação de livros por status de leitura; registro de avaliações e resenhas; acompanhamento do progresso de leitura; gerenciamento de perfil do usuário; possibilidade de importar livros para a biblioteca pessoal. O protótipo atual utiliza HTML, CSS e JavaScript, com armazenamento local dos dados. A integração com banco de dados e serviços externos está prevista para etapas futuras do desenvolvimento. |
+| Restrições da Plataforma | A pesquisa de novos livros e o acesso a recursos externos dependem de conexão com a internet. No protótipo atual, os dados são armazenados localmente, não havendo sincronização automática entre diferentes dispositivos. A persistência das informações depende do armazenamento disponível no navegador. A importação de livros e a integração com serviços externos dependem da implementação de funcionalidades específicas e da disponibilidade de APIs compatíveis. |
 
 ## 2) Princípios Gerais do Projeto
 
 | Nome | Descrição | Link |
 | :---- | :---- | :---- |
-| Descrição do Contexto | Produto voltado a leitores que buscam registrar e acompanhar sua leitura com baixa fricção de cadastro — necessidade identificada como a mais recorrente na pesquisa (ver [`3_perfil_usuario.md`](3_perfil_usuario.md)). | — |
-| Lei Geral de Proteção de Dados (LGPD) — Lei n.º 13.709/2018 | Regula o tratamento de dados pessoais no Brasil. É especialmente relevante aqui porque a plataforma armazena hábitos de leitura e, ao integrar com o Kindle, credenciais de acesso a uma conta de terceiros — exigindo consentimento explícito, minimização de dados e possibilidade de exclusão de conta. | https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm |
-| Lei n.º 10.098/2000 — Lei da Acessibilidade | Estabelece diretrizes para tornar produtos e serviços acessíveis a pessoas com deficiência ou mobilidade reduzida. Orienta decisões como contraste adequado, suporte a leitor de tela e tamanho de fonte ajustável na interface. | https://www.planalto.gov.br/ccivil_03/leis/l10098.htm |
-| ABNT NBR ISO 9241 — Ergonomia da interação humano-sistema | Fornece diretrizes de design centrado no usuário (parte 210) e de usabilidade (parte 11), usadas como base para as metas de usabilidade quantitativas definidas abaixo. | https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf |
+| Descrição do Contexto | O Minha Estante é uma plataforma voltada a leitores que desejam centralizar sua experiência literária em um único ambiente digital. O sistema busca facilitar a organização de livros, o acompanhamento das leituras e o compartilhamento de opiniões por meio de avaliações e resenhas. A proposta é proporcionar uma experiência intuitiva, agradável e personalizada, incentivando o hábito da leitura e permitindo que cada usuário construa seu próprio espaço literário. | — |
+| Lei Geral de Proteção de Dados (LGPD) — Lei n.º 13.709/2018 | Estabelece regras para a coleta, o armazenamento e o tratamento de dados pessoais. É relevante para o Minha Estante, pois a plataforma poderá armazenar informações de cadastro, dados de perfil, histórico de leitura, avaliações e resenhas dos usuários. O sistema deve garantir transparência no tratamento das informações, consentimento quando necessário, segurança dos dados e possibilidade de exclusão da conta e das informações pessoais. | https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm |
+| Lei n.º 10.098/2000 — Lei da Acessibilidade | Estabelece normas gerais e critérios básicos para a promoção da acessibilidade. Orienta o desenvolvimento de uma interface que possa ser utilizada por pessoas com diferentes necessidades, considerando aspectos como contraste adequado, legibilidade dos textos, navegação por teclado, identificação dos elementos da interface e compatibilidade com tecnologias assistivas. | https://www.planalto.gov.br/ccivil_03/leis/l10098.htm |
+| ABNT NBR ISO 9241 — Ergonomia da interação humano-sistema | Fornece diretrizes para o desenvolvimento de sistemas centrados no usuário, considerando aspectos de ergonomia, usabilidade e qualidade da interação. No Minha Estante, essas diretrizes orientam a criação de uma interface intuitiva, eficiente e satisfatória, facilitando a pesquisa de livros, a organização da estante e o registro de avaliações e resenhas. | https://www.inf.ufsc.br/~edla.ramos/ine5624/_Walter/Normas/Parte%2011/iso9241-11F2.pdf |
 
 ## 3) Metas de Usabilidade
 
 ### 3.1 Qualitativo
 
-- **Facilidade de aprendizado**: um novo usuário deve conseguir registrar seu primeiro livro sem precisar de tutorial ou ajuda externa.
-- **Eficiência**: usuários recorrentes devem conseguir registrar um livro em poucos toques, sem que nenhuma etapa opcional (nota, resenha, categoria) seja obrigatória para concluir o registro.
-- **Satisfação**: o usuário deve sentir que tem controle e visão clara do próprio progresso de leitura, reduzindo a sensação relatada na pesquisa de "não saber quantos livros já li" ou "não saber se estou cumprindo a meta".
+- **Facilidade de aprendizado**: um novo usuário deve conseguir compreender a organização da plataforma, localizar livros e adicionar uma obra à sua estante sem precisar de tutorial ou ajuda externa.
+
+- **Eficiência**: usuários recorrentes devem conseguir pesquisar livros, atualizar o status de leitura e registrar avaliações ou resenhas de maneira rápida e intuitiva, evitando etapas desnecessárias e formulários excessivamente complexos.
+
+- **Satisfação**: o usuário deve encontrar um ambiente agradável, organizado e personalizado, que proporcione uma experiência positiva durante a organização de sua biblioteca pessoal e o compartilhamento de suas opiniões literárias.
+
+- **Consistência**: os elementos visuais, botões, menus, ícones e padrões de navegação devem manter uma identidade uniforme em todas as seções da plataforma, facilitando a compreensão e a utilização do sistema.
+
+- **Acessibilidade**: a interface deve oferecer boa legibilidade, contraste adequado, navegação intuitiva e adaptação a diferentes dispositivos, buscando atender usuários com diferentes necessidades e condições de utilização.
 
 ### 3.2 Quantitativo
 
-> A tabela abaixo distribui prioridade relativa entre as metas de usabilidade do produto (pesos que somam 100%), com base na frequência e intensidade das dores identificadas na pesquisa — não são taxas de sucesso isoladas, mas o peso que cada meta deve ter nas decisões de design e nos testes de usabilidade futuros.
+> A tabela abaixo apresenta a distribuição de prioridade relativa entre as metas de usabilidade do Minha Estante. Os pesos totalizam 100% e representam a importância atribuída a cada aspecto durante o desenvolvimento do projeto. Essa distribuição constitui uma proposta inicial de prioridades, que poderá ser validada e ajustada por meio de testes de usabilidade com usuários.
 
 | Metas | Porcentagem | Justificativa |
 | :---- | :---- | :---- |
-| Facilidade e confiabilidade do registro básico (buscar + marcar como lido, sem abandono) | 35% | Dor mais citada na pesquisa: 5 de 5 entrevistadas sem uma solução satisfatória hoje; 8 de 10 no questionário sem app ativo (nunca usaram ou já abandonaram). Maior peso de prioridade do produto. |
-| Precisão e clareza no acompanhamento de metas de leitura | 25% | Dor central do Segmento B (persona Camila) e presente em graus variados nos demais segmentos; 4 de 10 no questionário não conseguem medir se estão cumprindo a meta. |
-| Espaço para registrar opinião pessoal (nota/resenha) | 15% | Desejado por 3 de 5 entrevistadas e prioridade média no questionário ("fazer anotações": 7 de 10) — importante, mas não a dor mais urgente. |
-| Estabilidade da integração com o Kindle | 15% | Dor específica do Segmento C (persona Letícia) — relevante, mas atinge uma parcela menor da amostra. |
-| Funcionalidades sociais (seguir amigos, compartilhar leituras) | 10% | Baixo interesse identificado tanto no questionário (itens sociais nas últimas posições) quanto na classificação de cartões (1 de 4 participantes rejeitou explicitamente) — peso baixo, mas não nulo. |
-| **Total** | **100%** | Distribuição de prioridade entre as metas de usabilidade, calibrada pelos achados consolidados em `3_perfil_usuario.md`. |
+| Facilidade e eficiência na pesquisa e organização de livros | 30% | A pesquisa e a organização das obras representam funcionalidades centrais da plataforma. O usuário deve conseguir localizar livros e adicioná-los à sua estante sem dificuldades ou etapas desnecessárias. |
+| Facilidade e eficiência no registro de avaliações e resenhas | 25% | O registro de opiniões pessoais é uma das principais propostas do Minha Estante. O sistema deve permitir que o usuário atribua notas e escreva resenhas de maneira simples, organizada e intuitiva. |
+| Clareza no acompanhamento do progresso de leitura | 20% | O acompanhamento permite que o usuário visualize sua atividade literária, consulte seus livros e acompanhe sua evolução ao longo do tempo. |
+| Acessibilidade e responsividade da interface | 15% | A plataforma deve oferecer uma experiência consistente em computadores, tablets e smartphones, considerando diferentes necessidades de acesso e utilização. |
+| Satisfação e personalização da experiência do usuário | 10% | A organização visual, a identidade da plataforma e a possibilidade de personalização contribuem para tornar o ambiente mais agradável e incentivar o uso contínuo do sistema. |
+| **Total** | **100%** | Distribuição de prioridade entre as metas de usabilidade do Minha Estante, considerando as principais funcionalidades e os objetivos do projeto. |
