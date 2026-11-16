@@ -1,6 +1,8 @@
 # Cenário de Análise/Problema
 
 > Cenários construídos a partir das dores identificadas em [`3_perfil_usuario.md`](3_perfil_usuario.md) e dos mapas de empatia em [`4_personas.md`](4_personas.md). Nenhuma menção à plataforma que a equipe vai construir — as narrativas descrevem a vida das personas **antes** dela existir.
+>
+> **Nota metodológica**: as respostas das "Questões de Refinamento" são hipóteses de trabalho construídas pela equipe a partir das entrevistas (E1 a E5) e do questionário. Detalhes que não aparecem nos dados coletados (por exemplo, o motivo exato de cada abandono) precisam ser validados nos testes. O esquecimento de títulos e da origem da recomendação (Yasmin) foi relatado espontaneamente por 1 de 5 entrevistadas e é um achado emergente (ver `3_perfil_usuario.md`, Seção 3).
 
 ---
 
@@ -8,7 +10,7 @@
 
 ## 1) Cenário de Análise/Problema
 
-Yasmin trabalha em regime CLT e, nos poucos momentos livres que sobram entre o trabalho e a vida pessoal, gosta de ler romance e fantasia. Ela descobre a maior parte dos livros que quer ler passando o feed do TikTok e do Instagram — vê uma resenha animada, se interessa, e segue o dia. Às vezes anota o título nas Notas do celular, às vezes só confia na memória mesmo. Semanas depois, quando finalmente tem um tempo livre pra procurar aquele livro, não lembra mais o nome nem onde viu a indicação — só que "tinha uma menina falando super bem de um livro de fantasia". Ela já tentou usar um aplicativo de leitura pra não perder mais esses achados, mas o processo de cadastrar cada livro pedia tantas informações que, depois de duas ou três tentativas, ela desistiu e voltou pras Notas do celular, sem grande disciplina. Hoje, se alguém perguntasse quantos livros ela leu neste ano, ela não saberia responder com certeza.
+Yasmin trabalha em regime CLT e, nos poucos momentos livres que sobram entre o trabalho e a vida pessoal, gosta de ler romance e fantasia. Ela descobre a maior parte dos livros que quer ler passando o feed do TikTok e do Instagram — vê uma resenha animada, se interessa, e segue o dia. Às vezes salva o título em algum lugar do celular, sem regularidade; na maioria das vezes, só confia na memória mesmo. Semanas depois, quando finalmente tem um tempo livre pra procurar aquele livro, não lembra mais o nome nem onde viu a indicação — só que "tinha uma menina falando super bem de um livro de fantasia". Ela já tentou usar um aplicativo de leitura pra não perder mais esses achados, mas o processo de cadastrar cada livro pedia tantas informações que, depois de duas ou três tentativas, ela desistiu e voltou ao improviso de antes, sem grande disciplina. Hoje, se alguém perguntasse quantos livros ela leu neste ano, ela não saberia responder com certeza.
 
 ## 2) Questões de Refinamento
 
@@ -36,10 +38,10 @@ Yasmin vê recomendações de livros quase todo dia no feed das redes sociais, m
 | Etapa | O que acontece | Estado emocional |
 | :---- | :---- | :---- |
 | 1. Descoberta casual | Vê uma recomendação de livro passando o feed do TikTok/Instagram, entre outras tarefas. | Interessada |
-| 2. Registro informal (ou ausência dele) | Às vezes anota nas Notas do celular; na maioria das vezes, só confia na memória. | Despreocupada, sem perceber o risco de esquecer |
+| 2. Registro informal (ou ausência dele) | Às vezes salva o título em algum lugar do celular, sem regularidade; na maioria das vezes, só confia na memória. | Despreocupada, sem perceber o risco de esquecer |
 | 3. Esquecimento | Dias ou semanas depois, tenta lembrar do livro e não consegue recuperar nem o nome nem a origem da recomendação. | Frustrada |
 | 4. Tentativa de solução | Baixa um aplicativo de leitura para não perder mais recomendações; encontra um processo de cadastro longo e repetitivo. | Desanimada |
-| 5. Abandono | Para de usar o aplicativo em poucas semanas; volta ao improviso das Notas do celular. | Resignada / sem controle sobre a própria leitura |
+| 5. Abandono | Para de usar o aplicativo em poucas semanas; volta ao improviso de antes. | Resignada / sem controle sobre a própria leitura |
 
 ```mermaid
 journey
