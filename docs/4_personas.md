@@ -2,7 +2,7 @@
 
 > As personas abaixo derivam diretamente da segmentação definida em [`3_perfil_usuario.md`](3_perfil_usuario.md). Toda característica apresentada é rastreável aos dados coletados no questionário (10 respostas) e nas entrevistas (E1 a E5) — nenhum traço foi adicionado por parecer razoável.
 
-> Pendente: gerar uma foto de rosto para cada persona em [thispersondoesnotexist.com](https://thispersondoesnotexist.com/) e substituir os espaços indicados abaixo.
+> As citações das personas são sínteses redigidas a partir dos relatos das entrevistas (E1 a E5), e não transcrições literais.
 
 ---
 
@@ -21,7 +21,7 @@
 | **Nível de tecnologia** | Alto — usa smartphone diariamente; já teve contato com apps de leitura, mas abandonou por exigirem muitas etapas para um simples cadastro. |
 | **Frustração principal** | Falta de tempo somada a apps que tornam o registro trabalhoso; esquece nomes de livros e onde viu recomendações por não ter um sistema central; nunca manteve uma solução de registro por muito tempo. |
 
-**Base de dados**: perfil comportamental e dores de E2, E4 e E5 (Segmento 1 do Perfil do Usuário); confirmado no questionário pelo alto índice de abandono/não uso de apps (8 de 10) e pela alta prioridade dada a "registrar livros lidos" (10 de 10) e "fazer anotações" (7 de 10).
+**Base de dados**: perfil comportamental e dores de E4 e E5 (Segmento A do Perfil do Usuário); o desejo de guardar opinião (nota, resenha) é transversal aos segmentos (3 de 5 entrevistadas); confirmado no questionário pelo alto índice de abandono/não uso de apps (8 de 10) e pela alta prioridade dada a "registrar livros lidos" (10 de 10) e "fazer anotações" (7 de 10).
 
 ### Mapa de Empatia — Yasmin
 
@@ -49,9 +49,9 @@
 | **Citação** | "Eu tenho meta de ler 20 livros por ano, mas sempre acabo perdendo a conta de quantos já li." |
 | **Objetivos** | Acompanhar sua meta anual de leitura de forma visual e clara; registrar resenhas e notas (de 1 a 5) de forma simples; ter uma visão geral do que já leu no ano para não se perder. |
 | **Nível de tecnologia** | Alto — usa o celular para tudo; já usa as "Notas" do celular para registrar livros, mas sente falta de um sistema melhor. |
-| **Frustração principal** | Não consegue acompanhar se está cumprindo a meta; sente que guardar resenhas e notas em um app seria útil, mas nunca encontrou um que fosse rápido e fácil de usar; perde o controle dos livros lidos no ano. |
+| **Frustração principal** | Não consegue acompanhar se está cumprindo a meta; sente que guardar resenhas e notas em um app seria útil, mas nunca testou um aplicativo dedicado, pois acha que aprender e manter mais um app dá mais trabalho do que vale; perde o controle dos livros lidos no ano. |
 
-**Base de dados**: perfil comportamental e dores de E2 (que tem meta anual de 20 livros, já leu 16 e usa as Notas do celular) e E4 (que não registra nada e quer começar a usar algo). Confirmado no questionário: 5 de 10 estabelecem metas "às vezes" e 4 de 10 não conseguem medir se estão cumprindo.
+**Base de dados**: perfil comportamental e dores de E2 (Segmento B do Perfil do Usuário), que tem meta anual de 20 livros, já leu 16 e usa as Notas do celular. Confirmado no questionário: 5 de 10 estabelecem metas "às vezes" e 4 de 10 não conseguem medir se estão cumprindo.
 
 ### Mapa de Empatia — Camila
 
@@ -81,7 +81,7 @@
 | **Nível de tecnologia** | Alto — leitora de longa data em e-reader; já testou um app dedicado de leitura (Skoob), mas encontrou instabilidade. |
 | **Frustração principal** | O app dedicado que testou trava e desconecta com frequência; para ter uma visão completa da própria leitura, precisa hoje usar dois lugares diferentes (Kindle + Skoob), o que a fez, na prática, abandonar o registro no segundo. |
 
-**Base de dados**: perfil comportamental de E1 e E3 (Segmento 2 do Perfil do Usuário), incluindo o relato direto de instabilidade em app concorrente; reforçado por uma resposta aberta do questionário pedindo explicitamente "integração com o Kindle, com progresso importado automaticamente".
+**Base de dados**: perfil comportamental de E1 e E3 (Segmento C do Perfil do Usuário), incluindo o relato direto de instabilidade em app concorrente; reforçado por uma resposta aberta do questionário pedindo explicitamente "integração com o Kindle, com progresso importado automaticamente".
 
 ### Mapa de Empatia — Letícia
 
