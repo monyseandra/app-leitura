@@ -1,6 +1,6 @@
 # Análise de Tarefas
 
-> Modelagem de 4 funcionalidades centrais do produto, escolhidas por serem as mais citadas nas dores das personas primárias (Yasmin e Camila) e da persona secundária (Letícia) em [`4_personas.md`](4_personas.md) e [`5_cenarios.md`](5_cenarios.md): registrar um livro lido, definir/acompanhar uma meta de leitura, avaliar/resenhar um livro, e sincronizar o progresso com o Kindle.
+> Modelagem de 4 funcionalidades centrais do produto, escolhidas por responderem às dores centrais das personas primárias (Yasmin e Camila) e da persona secundária (Letícia) descritas em [`4_personas.md`](4_personas.md) e [`5_cenarios.md`](5_cenarios.md): registrar um livro lido, definir/acompanhar uma meta de leitura, avaliar/resenhar um livro, e sincronizar o progresso com o Kindle.
 
 ---
 
@@ -12,7 +12,7 @@
 graph TD
     A["0. Registrar um livro como lido<br/>1>2>3"] --> B["1. Buscar e selecionar o livro<br/>1>2"]
     A --> C["2. Marcar status e data<br/>1+2"]
-    A --> D["3. Personalizar o registro<br/>1+2+3 (todos opcionais)"]
+    A --> D["3. Personalizar o registro<br/>0 ou mais dos itens abaixo, em qualquer ordem (opcional)"]
     B --> B1["1.1 Informar título ou ISBN na busca"]
     B --> B2["1.2 Selecionar o livro nos resultados"]
     C --> C1["2.1 Marcar como lido"]
@@ -25,7 +25,7 @@ graph TD
 - **Plano 0 (`1>2>3`)**: primeiro busca e seleciona o livro, depois marca status e data, e só então (se quiser) personaliza o registro — nessa ordem.
 - **Plano 1 (`1>2`)**: só é possível selecionar um resultado depois de realizar a busca.
 - **Plano 2 (`1+2`)**: marcar como lido e confirmar a data acontecem no mesmo passo do formulário, em qualquer ordem.
-- **Plano 3 (1+2+3, todos opcionais)**: os três itens de personalização (nota, resenha e categoria) podem ser preenchidos em qualquer ordem e são todos opcionais — o usuário pode preencher nenhum, um, dois ou os três, sem que isso bloqueie salvar o registro. Essa é a etapa que, no cenário de Yasmin, precisa continuar sendo pulável — é o que a fez abandonar o aplicativo concorrente que testou.
+- **Plano 3 (prosa)**: os três itens de personalização são todos opcionais e independentes entre si — o usuário pode preencher nenhum, um, dois ou os três, em qualquer ordem, sem que isso bloqueie salvar o registro. Essa é a etapa que, no cenário de Yasmin, precisa continuar sendo pulável — é o que a fez abandonar o aplicativo concorrente que testou. Na interface final, **categoria e data** ficam na tela Detalhes (tela 3), e **nota e resenha** são feitas na tela Avaliar (tela 6), oferecida num convite logo após salvar o registro (tela 4) e também pelo botão "Avaliar Livro" na própria tela Detalhes (tela 3).
 
 ---
 
@@ -51,23 +51,21 @@ graph TD
 
 ## GOMS — Avaliar e escrever uma resenha de um livro
 
-**Funcionalidade**: permitir que o usuário registre uma nota (1 a 5) e, opcionalmente, uma resenha em texto sobre um livro já lido. Modelada a partir da dor mais citada nas entrevistas depois de "falta de tempo": o desejo de registrar opinião pessoal além do status "lido" (E2, E3, E5 — ver `3_perfil_usuario.md`, Seção 3).
+**Funcionalidade**: permitir que o usuário registre uma nota (1 a 5) e, opcionalmente, uma resenha em texto sobre um livro já lido. Modelada a partir do desejo de registrar opinião pessoal além do status "lido", relatado por 3 de 5 entrevistadas (E2, E3, E5 — ver `3_perfil_usuario.md`, Seção 3).
 
 ```
 GOAL 0: registrar uma avaliação para o livro "X"
 
   GOAL 1: chegar até a tela de avaliação do livro
 
-    METHOD 1.A: acessar pela estante de livros lidos
-    (SEL. RULE: o livro já foi marcado como lido anteriormente e o usuário está navegando pela estante)
-      OP. 1.A.1: tocar na aba "Lidos"
-      OP. 1.A.2: localizar o livro "X" na lista
-      OP. 1.A.3: tocar no livro para abrir os detalhes
-      OP. 1.A.4: tocar em "Avaliar"
+    METHOD 1.A: acessar pela tela de detalhes do livro
+    (SEL. RULE: o livro já foi marcado como lido antes e o usuário quer avaliá-lo agora)
+      OP. 1.A.1: tocar no livro "X" na Estante
+      OP. 1.A.2: tocar em "Avaliar Livro" na tela Detalhes
 
-    METHOD 1.B: acessar direto pela confirmação de leitura concluída
-    (SEL. RULE: o usuário acabou de marcar o livro "X" como lido agora mesmo)
-      OP. 1.B.1: tocar em "Avaliar agora" na tela de confirmação de leitura
+    METHOD 1.B: acessar direto pelo convite após salvar como lido
+    (SEL. RULE: o usuário acabou de salvar o livro "X" como lido e aparece o convite "Quer dar uma nota e escrever uma opinião agora?")
+      OP. 1.B.1: tocar em "Avaliar" no convite
 
   GOAL 2: informar a nota
     OP. 2.1: tocar no número de estrelas correspondente (1 a 5)
@@ -96,20 +94,28 @@ GOAL 0: sincronizar o progresso de leitura com a conta do Kindle
 
   GOAL 1: conectar a conta do Kindle à plataforma
 
-    METHOD 1.A: conectar pela tela de configurações
+    METHOD 1.A: conectar pela aba Perfil
     (SEL. RULE: é a primeira vez que o usuário faz essa sincronização)
-      OP. 1.A.1: tocar em "Configurações"
-      OP. 1.A.2: tocar em "Conectar conta Kindle"
-      OP. 1.A.3: informar e-mail e senha da conta Amazon
-      OP. 1.A.4: confirmar a autorização de acesso
+      OP. 1.A.1: tocar na aba "Perfil" para abrir "Perfil & Ajustes"
+      OP. 1.A.2: tocar em "Conectar" em "Dispositivos & Integrações" (Amazon Kindle)
+      OP. 1.A.3: tocar em "Conectar" no cartão "Conectar conta Amazon" da tela Sincronizar Kindle
+      OP. 1.A.4: informar e-mail e senha da conta Amazon
+      OP. 1.A.5: tocar em "Conectar e autorizar"
 
     METHOD 1.B: pular a conexão, pois já está feita
     (SEL. RULE: o usuário já conectou a conta Kindle em uma sessão anterior)
-      OP. 1.B.1: verificar que o status "Conectado" já aparece em Configurações
+      OP. 1.B.1: verificar que o status "Conectado" já aparece em "Dispositivos & Integrações"
 
   GOAL 2: importar o progresso atual
     OP. 2.1: tocar em "Sincronizar agora"
     OP. 2.2: aguardar a confirmação de que a importação foi concluída
+
+  GOAL 3: lidar com uma falha de sincronização
+
+    METHOD 3.A: tentar novamente
+    (SEL. RULE: a sincronização falhou e aparece a mensagem "Não foi possível sincronizar")
+      OP. 3.A.1: ler a mensagem de erro
+      OP. 3.A.2: tocar em "Tentar novamente"
 ```
 
 ---
