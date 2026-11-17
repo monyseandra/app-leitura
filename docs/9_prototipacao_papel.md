@@ -17,40 +17,40 @@ Os esboços contemplam os seguintes fluxos:
 **3. Anexos dos esboços**
 
 ### 1. Estante Principal
-![Estante Principal](../imagens/esbocos/01-estante-principal.png)
+![Estante Principal](imagens/Minha_Estante_Esboços_Em_Ordem/01_Estante_Principal.jpg)
 
 ### 2. Buscar Livro
-![Buscar Livro](../imagens/esbocos/02-buscar-livro.png)
+![Buscar Livro](imagens/Minha_Estante_Esboços_Em_Ordem/02_Buscar_Livro.jpg)
 
 ### 3. Detalhes do Livro
-![Detalhes do Livro](../imagens/esbocos/03-detalhes-livro.png)
+![Detalhes do Livro](imagens/Minha_Estante_Esboços_Em_Ordem/03_Detalhes_do_Livro.jpg)
 
 ### 4. Livro Lido
-![Livro Lido](../imagens/esbocos/04-livro-lido.png)
+![Livro Lido](imagens/Minha_Estante_Esboços_Em_Ordem/04_Confirmacao_Livro_Salvo_como_Lido.jpg)
 
 ### 5. Avaliar Livro
-![Avaliar Livro](../imagens/esbocos/05-avaliar-livro.png)
+![Avaliar Livro](imagens/Minha_Estante_Esboços_Em_Ordem/05_Avaliar_Livro.jpg)
 
 ### 6. Opinião
-![Opinião](../imagens/esbocos/06-opiniao.png)
+![Opinião](imagens/Minha_Estante_Esboços_Em_Ordem/06_Opiniao_Livros_sem_Avaliacao.jpg)
 
 ### 7. Meu Progresso
-![Meu Progresso](../imagens/esbocos/07-meu-progresso.png)
+![Meu Progresso](imagens/Minha_Estante_Esboços_Em_Ordem/07_Meu_Progresso.jpg)
 
 ### 8. Definir Meta
-![Definir Meta](../imagens/esbocos/08-definir-meta.png)
+![Definir Meta](imagens/Minha_Estante_Esboços_Em_Ordem/08_Definir_Meta_de_Leitura.jpg)
 
 ### 9. Descobrir Livros
-![Descobrir Livros](../imagens/esbocos/09-descobrir-livros.png)
+![Descobrir Livros](imagens/Minha_Estante_Esboços_Em_Ordem/09_Descobrir_Livros.jpg)
 
 ### 10. Configurações
-![Configurações](../imagens/esbocos/10-configuracoes.png)
+![Configurações](imagens/Minha_Estante_Esboços_Em_Ordem/10_Configuracoes.jpg)
 
 ### 11. Conectar Kindle
-![Conectar Kindle](../imagens/esbocos/11-conectar-kindle.png)
+![Conectar Kindle](imagens/Minha_Estante_Esboços_Em_Ordem/11_Conectar_Kindle.jpg)
 
 ### 12. Erro de Sincronização
-![Erro de Sincronização](../imagens/esbocos/12-erro-sincronizacao.png)
+![Erro de Sincronização](imagens/Minha_Estante_Esboços_Em_Ordem/12_Erro_de_Sincronizacao.jpg)
 
 
 **4. Feedback sobre o protótipo**
