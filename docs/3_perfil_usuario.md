@@ -1,4 +1,4 @@
-# Perfil do Usuário
+# Perfil do Usuário 
 
 > Consolidação dos dados coletados no questionário (10 respostas), nas entrevistas semiestruturadas (5 participantes, identificados por código E1 a E5) e na classificação de cartões (4 respostas válidas). Nenhum nome de participante é usado neste documento: o questionário é anônimo e as entrevistas e a classificação de cartões são pseudonimizadas (identificadas apenas por código), conforme `2_pesquisa_usuarios.md`.
 
