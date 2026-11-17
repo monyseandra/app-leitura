@@ -1,15 +1,19 @@
-1) **Planejamento de Usabilidade (método DECIDE)**
+# Planejamento da Avaliação
 
-| D |  |
-| :---: | :---- |
-| **E** |   |
-| **C** |  |
-| **I** |  |
-| **D** |  |
-| **E** | A análise e produção dos resultados precisam considerar vários aspectos… |
+## 1) Planejamento de Usabilidade (método DECIDE)
 
-2) Lista de Instrumentos  
-   1) Termo de consentimento  
-   2) Questionários  
-   3) Tabela de Observação  
-   4) Formulário de avaliação Heuristica.
+| Letra | Etapa | Planejamento |
+| :---: | :---- | :---- |
+| **D** | *Determine the goals* — determinar os objetivos | Avaliar se o protótipo de alta fidelidade (Figma) permite que as personas do projeto (Yasmin, Camila e Letícia) realizem as 4 tarefas principais — **registrar um livro como lido, avaliar/resenhar, definir e acompanhar uma meta, e sincronizar com o Kindle** — de forma rápida, sem etapas obrigatórias desnecessárias e sem erros graves, e se atende aos requisitos de acessibilidade do projeto. Os objetivos são medidos contra as metas de usabilidade definidas em `7_requisitos_ux.md` (facilidade de aprendizado, eficiência e satisfação). O resultado esperado é uma lista priorizada de problemas de usabilidade a corrigir antes de qualquer desenvolvimento. |
+| **E** | *Explore the questions* — explorar as perguntas | 1) O usuário consegue registrar um livro como lido sem ajuda e sem preencher campos opcionais? 2) Fica claro que nota, resenha e categoria são opcionais? 3) O usuário encontra onde definir a meta e entende o progresso (ex.: "16/20")? 4) O usuário encontra onde avaliar um livro (botão **"Avaliar Livro"** nos Detalhes e convite após marcar como lido)? 5) O usuário encontra e conclui a conexão com o Kindle, e entende o que aconteceu quando algo falha? 6) Quais das 10 heurísticas de Nielsen são violadas, e com qual gravidade? 7) A interface atende aos requisitos de acessibilidade da seção 4 de `7_requisitos_ux.md` (contraste, tamanho dos alvos de toque, rótulos para leitor de tela, informação não apenas por cor)? |
+| **C** | *Choose the evaluation paradigm and techniques* — escolher o paradigma e as técnicas | Duas técnicas complementares: **(1) Inspeção heurística** (avaliação analítica, feita pelos integrantes da equipe, sem usuários — encontra problemas de interface de forma rápida, usando as 10 heurísticas de Nielsen e a escala de severidade de 0 a 4); **(2) Teste de usabilidade por observação do usuário** (usuários reais do público-alvo executam as 4 tarefas no protótipo enquanto são observados, com registro de sucesso, erros, tempo e satisfação — encontra problemas que só aparecem no uso real, como rótulos mal compreendidos). A combinação é intencional: a inspeção encontra violações de princípios; o teste mostra o que de fato atrapalha quem usa. |
+| **I** | *Identify the practical issues* — identificar as questões práticas | **Participantes**: o número de usuários observados é igual ao número de integrantes da equipe (regra do professor); recrutar pessoas do público-alvo (leitoras jovens adultas que trabalham/estudam), preferencialmente que **não** tenham participado da pesquisa anterior, para reduzir viés de familiaridade. **Protótipo**: precisa estar navegável no Figma para as 4 tarefas antes de qualquer teste. **Equipamento**: celular (ou computador) com acesso ao link do protótipo e gravação de tela. **Tempo**: cerca de 20 minutos por sessão; piloto prévio com 1 pessoa. **Equipe**: 1 facilitador e 1 observador por sessão, sempre que possível. **Limitação conhecida**: protótipo não tem back-end — a sincronização com o Kindle será simulada. |
+| **D** | *Decide how to deal with the ethical issues* — decidir como tratar as questões éticas | Termo de consentimento antes de qualquer sessão (participação voluntária, desistência a qualquer momento, o teste avalia o protótipo e não a pessoa). Participantes identificados apenas por código (U1, U2...). Conforme a LGPD (Lei n.º 13.709/2018): gravações guardadas só em pasta privada do grupo, **nunca no repositório público**; preferência por gravar **apenas a tela** (sem rosto/voz); apagadas ao final do semestre, mantendo-se só os registros anonimizados. |
+| **E** | *Evaluate, interpret and present the data* — avaliar, interpretar e apresentar os dados | A análise e produção dos resultados precisam considerar vários aspectos: **confiabilidade** (todas as sessões seguem o mesmo roteiro e as mesmas tarefas), **validade** (as tarefas realmente medem o que se quer medir), **vieses** (participantes conhecidos, influência do facilitador, dar dicas durante a tarefa), **escopo** (amostra muito pequena — os resultados indicam problemas, não generalizam) e **validade ecológica** (o ambiente de teste difere do uso real, ex.: ônibus). Dados quantitativos: grau de sucesso, nº de erros, tempo por tarefa, satisfação (escala 1–5). Dados qualitativos: observações, falas e hesitações. Os problemas são priorizados pela severidade (3 e 4 primeiro) e apresentados em `12_heuristica.md` e `13_teste_usabilidade.md`, com recomendações de correção no protótipo. |
+
+## 2) Lista de Instrumentos
+
+1. **Termo de consentimento** — [`docs/instrumentos/avaliacao_termo_consentimento.md`](docs/instrumentos/avaliacao_termo_consentimento.md)
+2. **Questionários** (perfil do usuário antes do teste e satisfação depois) — [`docs/instrumentos/avaliacao_questionarios.md`](docs/instrumentos/avaliacao_questionarios.md)
+3. **Tabela de Observação** — [`docs/instrumentos/avaliacao_tabela_observacao.md`](docs/instrumentos/avaliacao_tabela_observacao.md)
+4. **Formulário de avaliação heurística** — [`docs/instrumentos/avaliacao_formulario_heuristica.md`](docs/instrumentos/avaliacao_formulario_heuristica.md)
