@@ -8,7 +8,7 @@
 
 - Entrada
   - Entrar (login)
-  - Criar Conta
+  - Criar Conta  
 - Estante (tela inicial) — lista de livros, resumo da meta e atalho "Adicionar livro"
   - Detalhes do Livro (status, data e categoria opcional; botão "Avaliar Livro")
   - Convite para avaliar (aparece após salvar um livro como Lido)
