@@ -28,7 +28,7 @@ Este projeto é desenvolvido pelos seguintes alunos:
 
 **Funcionalidades.** O **Minha Estante** oferece: estante de livros (lido, lendo, quero ler); busca e adição de livros; detalhes do livro com categoria opcional; avaliação (nota) e resenha; metas de leitura com painel de progresso e estatísticas; cadastro e login; recomendações personalizadas (aba Buscar, "Buscar & Descobrir"); conexão e sincronização com o Kindle; perfil, privacidade e notificações (aba Perfil).
 
-**Tecnologias e ferramentas computacionais utilizadas.** Google Forms e WhatsApp (coleta de dados com usuários); Markdown e Mermaid (documentação e diagramas); GitHub (versionamento); Figma (protótipo de alta fidelidade). A tecnologia de implementação do aplicativo não faz parte desta entrega, que é focada no processo de UX.
+**Tecnologias e ferramentas computacionais utilizadas.** Google Forms e WhatsApp (coleta de dados com usuários); Markdown e Mermaid (documentação e diagramas); GitHub (versionamento); Figma (protótipo de alta fidelidade).
 
 **Contexto de uso.** Uso no celular, em pausas curtas e fragmentadas do dia — no trajeto de transporte público, entre tarefas do trabalho ou da faculdade e à noite — muitas vezes com atenção dividida, pouca luz e possível conexão instável (hipótese). Ver detalhes em `docs/5_cenarios.md`.
 
