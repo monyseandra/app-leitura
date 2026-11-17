@@ -1,11 +1,12 @@
-# 13. TESTE DE USABILIDADE
+# 13. TESTE DE USABILIDADE — MINHA ESTANTE
 
-**[1 solução completa por pessoa da equipe]**
+**Método de Avaliação de Usabilidade por Observação do Usuário**
 
-**Método de Avaliação de Usabilidade por Observação do Usuário**  
-**(o número de usuários observados é igual o número de membros da equipe)**
+**Quantidade de usuários observados:** Igual ao número de integrantes da equipe.
 
-## 1) Fluxograma de Avaliação de Usabilidade por Observação do Usuário [1 solução por equipe]
+## 1) Fluxograma de Avaliação de Usabilidade por Observação do Usuário
+
+**Figura 1 — Fluxograma de avaliação de usabilidade**
 
 ```mermaid
 flowchart TD
@@ -24,33 +25,41 @@ flowchart TD
     L --> M([Fim])
 ```
 
-## 2) DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE [1 solução por equipe]
+## 2) DESCRIÇÃO DO PROCEDIMENTO DE PREPARAÇÃO DO TESTE
 
-**Passo 1: Preparação do ambiente de teste.**
+### Passo 1: Preparação do ambiente de teste
 
-O teste será realizado utilizando o protótipo do sistema Minha Estante, uma plataforma digital voltada à organização de livros, acompanhamento de leituras e compartilhamento de resenhas.
+O teste será realizado utilizando o sistema **Minha Estante**, uma plataforma digital desenvolvida para auxiliar os leitores na organização de livros, acompanhamento de leituras, registro de avaliações e interação com outros leitores.
 
-O usuário deverá acessar o sistema por meio de um computador ou dispositivo compatível, utilizando um navegador atualizado. O ambiente deverá permitir a navegação pelas telas disponíveis no protótipo.
+O participante deverá acessar o sistema por meio de um computador ou dispositivo compatível, utilizando um navegador atualizado.
+
+O sistema deverá ser apresentado em sua versão funcional, permitindo a navegação pelas telas disponíveis no protótipo.
 
 Durante a avaliação, um integrante da equipe ficará responsável por observar o comportamento do participante e registrar o tempo necessário, as dificuldades encontradas, os erros cometidos e o grau de sucesso na realização das tarefas.
 
-**Passo 2: Lista de tarefas que o usuário deve cumprir.**
+### Passo 2: Lista de tarefas que o usuário deve cumprir
 
 O participante deverá realizar as seguintes tarefas no Minha Estante:
 
-1. Acessar a tela inicial do Minha Estante e localizar a opção de login ou cadastro.
-2. Localizar um livro utilizando a funcionalidade de busca.
-3. Adicionar um livro à sua estante pessoal.
-4. Localizar um livro na estante e identificar seu status de leitura.
-5. Consultar o progresso de leitura.
-6. Localizar a área destinada às resenhas e avaliações dos livros.
-7. Acessar o perfil do usuário e identificar as informações disponíveis.
+1. **Acessar a tela inicial:** localizar as opções de login e cadastro e identificar como entrar na plataforma.
 
-**Passo 3: Formulário de perfil do usuário**
+2. **Buscar um livro:** utilizar a funcionalidade de busca para localizar um livro disponível no catálogo.
+
+3. **Adicionar um livro à estante:** selecionar um livro encontrado e adicioná-lo à biblioteca pessoal, escolhendo o status de leitura desejado.
+
+4. **Identificar o status de leitura:** acessar a estante e localizar as categorias de livros, identificando os títulos que estão como "Quero Ler", "Lendo" ou "Lido".
+
+5. **Consultar o progresso de leitura:** acessar a seção Progresso e identificar os indicadores de leitura, estatísticas e metas disponíveis.
+
+6. **Localizar resenhas e avaliações:** encontrar a funcionalidade de avaliação de livros e identificar onde são registradas as resenhas.
+
+7. **Acessar o perfil do usuário:** localizar a área de perfil e identificar as informações pessoais e opções de configuração disponíveis.
+
+### Passo 3: Formulário de perfil do usuário
 
 Antes de iniciar o teste, o participante deverá responder a um formulário para identificação de seu perfil e familiaridade com plataformas digitais de leitura.
 
-Perguntas sugeridas:
+**Perguntas do formulário:**
 
 1. Qual é a sua faixa etária?
 2. Você costuma ler livros digitais?
@@ -59,13 +68,15 @@ Perguntas sugeridas:
 5. Você costuma escrever ou consultar resenhas de livros?
 6. Você considera fácil utilizar novos sistemas e aplicativos?
 
-**Passo 4: Orientação para realização do teste.**
+### Passo 4: Orientação para realização do teste
 
 O participante receberá as instruções necessárias para realizar as tarefas, sem receber orientações sobre onde clicar ou como executar cada ação.
 
 O avaliador deverá observar a navegação naturalmente, evitando interferir nas decisões do usuário.
 
-**Passo 5: Registro das informações.**
+Caso o participante apresente dificuldades, o avaliador deverá registrar o ocorrido, sem fornecer respostas que possam influenciar o resultado do teste.
+
+### Passo 5: Registro das informações
 
 Durante a execução das tarefas, serão registrados:
 
@@ -75,41 +86,110 @@ Durante a execução das tarefas, serão registrados:
 - Tempo necessário para concluir cada tarefa.
 - Grau de satisfação ou dificuldade demonstrado pelo participante.
 
-**Passo 6: Aplicação do formulário de satisfação.**
+Para padronizar os registros, serão utilizadas as seguintes classificações:
 
-Após concluir as tarefas, o participante deverá responder a perguntas sobre sua experiência de utilização do Minha Estante, considerando a facilidade de navegação, organização das informações, compreensão das funcionalidades e satisfação geral.
+**Grau de sucesso:**
+- Sucesso completo: realizou a tarefa sem ajuda.
+- Sucesso parcial: realizou a tarefa com dificuldades ou ajuda.
+- Insucesso: não conseguiu concluir a tarefa.
 
-## 3) RESULTADOS DO TESTE [1 solução por equipe]
+**Grau de satisfação:**
+- 1 — Muito insatisfeito.
+- 2 — Insatisfeito.
+- 3 — Neutro.
+- 4 — Satisfeito.
+- 5 — Muito satisfeito.
 
-**Avaliação de cada Tarefa (para cada usuário)**
+### Passo 6: Aplicação do formulário de satisfação
 
-| Tarefa | Grau de Sucesso | Total de Erros cometidos | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
-| ----- | ----- | ----- | ----- | ----- | ----- |
-| **1 – Acessar login ou cadastro** | A preencher | A preencher | A preencher | A preencher | A preencher |
-| **2 – Buscar um livro** | A preencher | A preencher | A preencher | A preencher | A preencher |
-| **3 – Adicionar um livro à estante** | A preencher | A preencher | A preencher | A preencher | A preencher |
-| **4 – Identificar o status de leitura** | A preencher | A preencher | A preencher | A preencher | A preencher |
-| **5 – Consultar o progresso de leitura** | A preencher | A preencher | A preencher | A preencher | A preencher |
-| **6 – Localizar resenhas e avaliações** | A preencher | A preencher | A preencher | A preencher | A preencher |
-| **7 – Acessar o perfil do usuário** | A preencher | A preencher | A preencher | A preencher | A preencher |
+Após concluir as tarefas, o participante deverá responder a perguntas sobre sua experiência de utilização do Minha Estante.
 
-**Links dos vídeos:**
+**Perguntas do formulário de satisfação:**
+
+1. Você considerou fácil navegar pelo Minha Estante?
+2. As funcionalidades estavam organizadas de maneira clara?
+3. Você conseguiu encontrar os livros utilizando a busca?
+4. Foi fácil adicionar e organizar livros na estante?
+5. Você conseguiu compreender as informações apresentadas na tela de progresso?
+6. Você considera a aparência visual do sistema agradável?
+7. Você encontrou alguma dificuldade durante a utilização?
+8. O que você melhoraria no Minha Estante?
+
+Para as perguntas de 1 a 6, utilizar uma escala de 1 a 5, sendo 1 equivalente a muito insatisfeito e 5 equivalente a muito satisfeito.
+
+As perguntas 7 e 8 deverão ser respondidas livremente.
+
+---
+
+## 3) RESULTADOS DO TESTE
+
+### 3.1) Avaliação de cada tarefa (para cada usuário)
+
+**Usuário 1**
+
+| Tarefa | Grau de Sucesso | Total de Erros | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|---|---|---|---|---|---|
+| 1 – Acessar login ou cadastro | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 2 – Buscar um livro | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 3 – Adicionar um livro à estante | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 4 – Identificar o status de leitura | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 5 – Consultar o progresso de leitura | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 6 – Localizar resenhas e avaliações | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 7 – Acessar o perfil do usuário | A preencher | A preencher | A preencher | A preencher | A preencher |
+
+**Usuário 2**
+
+| Tarefa | Grau de Sucesso | Total de Erros | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
+|---|---|---|---|---|---|
+| 1 – Acessar login ou cadastro | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 2 – Buscar um livro | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 3 – Adicionar um livro à estante | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 4 – Identificar o status de leitura | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 5 – Consultar o progresso de leitura | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 6 – Localizar resenhas e avaliações | A preencher | A preencher | A preencher | A preencher | A preencher |
+| 7 – Acessar o perfil do usuário | A preencher | A preencher | A preencher | A preencher | A preencher |
+
+**Observação:** Criar uma tabela para cada integrante da equipe, seguindo o mesmo modelo apresentado acima.
+
+### 3.2) Links dos vídeos
+
+As gravações deverão apresentar a realização das tarefas pelos participantes, permitindo observar a navegação e as dificuldades encontradas durante a utilização do sistema.
 
 - Usuário 1: [Inserir link da gravação]
 - Usuário 2: [Inserir link da gravação]
-- Usuário 3: [Inserir link da gravação]
 - Demais participantes: [Inserir links, conforme o número de integrantes da equipe]
 
-**Respostas do Formulário do Usuário:**
+### 3.3) Respostas do formulário de perfil do usuário
 
-As respostas dos formulários preenchidos pelos participantes deverão ser inseridas nesta seção, identificando cada usuário e apresentando suas respostas sobre o perfil, experiência de utilização e satisfação com o Minha Estante.
+As respostas dos formulários preenchidos pelos participantes deverão ser inseridas nesta seção, identificando cada usuário e apresentando suas respostas sobre o perfil e a familiaridade com plataformas digitais de leitura.
 
 - Usuário 1: [Inserir respostas do formulário]
 - Usuário 2: [Inserir respostas do formulário]
-- Usuário 3: [Inserir respostas do formulário]
 - Demais participantes: [Inserir respostas, conforme o número de integrantes da equipe]
 
-**Conclusão da avaliação por observação do usuário:**
+### 3.4) Respostas do formulário de satisfação
+
+As respostas do formulário de satisfação deverão ser organizadas individualmente, considerando as opiniões dos participantes sobre a experiência de utilização do Minha Estante.
+
+- Usuário 1: [Inserir respostas do formulário]
+- Usuário 2: [Inserir respostas do formulário]
+- Demais participantes: [Inserir respostas, conforme o número de integrantes da equipe]
+
+### 3.5) Análise dos resultados
+
+Após a realização dos testes, os resultados deverão ser organizados e analisados considerando:
+
+- Quantidade de tarefas concluídas com sucesso.
+- Quantidade de tarefas realizadas parcialmente.
+- Quantidade de tarefas não concluídas.
+- Principais erros identificados.
+- Tempo médio de realização das tarefas.
+- Nível de satisfação dos participantes.
+- Dificuldades e sugestões apresentadas pelos usuários.
+
+A análise deverá considerar os resultados individuais e os pontos em comum entre os participantes, permitindo identificar quais funcionalidades apresentam maior facilidade de utilização e quais precisam de melhorias.
+
+### 3.6) Conclusão da avaliação por observação do usuário
 
 A avaliação de usabilidade por observação do usuário tem como objetivo analisar a experiência dos participantes durante a utilização do Minha Estante, identificando dificuldades de navegação, problemas de compreensão e possíveis obstáculos na realização das tarefas propostas.
 
