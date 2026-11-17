@@ -137,43 +137,27 @@ As perguntas 7 e 8 deverão ser respondidas livremente.
 | 6 – Localizar resenhas e avaliações | A preencher | A preencher | A preencher | A preencher | A preencher |
 | 7 – Acessar o perfil do usuário | A preencher | A preencher | A preencher | A preencher | A preencher |
 
-**Usuário 2**
-
-| Tarefa | Grau de Sucesso | Total de Erros | Tipos de Erros | Tempo Necessário | Grau de Satisfação |
-|---|---|---|---|---|---|
-| 1 – Acessar login ou cadastro | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 2 – Buscar um livro | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 3 – Adicionar um livro à estante | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 4 – Identificar o status de leitura | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 5 – Consultar o progresso de leitura | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 6 – Localizar resenhas e avaliações | A preencher | A preencher | A preencher | A preencher | A preencher |
-| 7 – Acessar o perfil do usuário | A preencher | A preencher | A preencher | A preencher | A preencher |
-
-**Observação:** Criar uma tabela para cada integrante da equipe, seguindo o mesmo modelo apresentado acima.
 
 ### 3.2) Links dos vídeos
 
 As gravações deverão apresentar a realização das tarefas pelos participantes, permitindo observar a navegação e as dificuldades encontradas durante a utilização do sistema.
 
 - Usuário 1: [Inserir link da gravação]
-- Usuário 2: [Inserir link da gravação]
-- Demais participantes: [Inserir links, conforme o número de integrantes da equipe]
+
 
 ### 3.3) Respostas do formulário de perfil do usuário
 
 As respostas dos formulários preenchidos pelos participantes deverão ser inseridas nesta seção, identificando cada usuário e apresentando suas respostas sobre o perfil e a familiaridade com plataformas digitais de leitura.
 
 - Usuário 1: [Inserir respostas do formulário]
-- Usuário 2: [Inserir respostas do formulário]
-- Demais participantes: [Inserir respostas, conforme o número de integrantes da equipe]
+
 
 ### 3.4) Respostas do formulário de satisfação
 
 As respostas do formulário de satisfação deverão ser organizadas individualmente, considerando as opiniões dos participantes sobre a experiência de utilização do Minha Estante.
 
 - Usuário 1: [Inserir respostas do formulário]
-- Usuário 2: [Inserir respostas do formulário]
-- Demais participantes: [Inserir respostas, conforme o número de integrantes da equipe]
+
 
 ### 3.5) Análise dos resultados
 
