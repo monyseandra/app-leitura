@@ -196,7 +196,19 @@ O público-alvo do nosso projeto (leitores que querem organizar suas leituras) j
 - **Goodreads**: é criticado de forma consistente por múltiplas fontes independentes por ter recomendações pouco relevantes e mais voltadas a estimular vendas na Amazon do que a entender o gosto real do leitor; o design é frequentemente descrito como desatualizado ("parece um produto de 2010"), sem atualizações significativas há anos, e a parte social é chamada de "sem graça" por reviews especializados. Fontes: [Review do Goodreads 2026 — Bookwise](https://bookwiseapp.com/blog/goodreads-review-is-it-still-worth-using-in-2026); [Guia do Goodreads — Bookwise](https://bookwiseapp.com/blog/the-goodreads-app-a-complete-guide-to-features-how-it-works); [Comparativo de 13 apps de leitura — House Lucia](https://houselucia.com/book-tracking-apps-2026/); [Melhores alternativas ao Goodreads em 2026 — Bookwise](https://bookwiseapp.com/blog/goodreads-alternatives).
 - **The StoryGraph**: é bem avaliado especificamente pelo motor de recomendação, apontado por diferentes fontes como um dos melhores recursos do app e como seu principal diferencial frente ao Goodreads; um guia comparativo de 2026 o elegeu como "vencedor" entre sete rastreadores de leitura testados. Fontes: [Review do StoryGraph — Popular Science](https://www.popsci.com/diy/storygraph/); [Melhor rastreador de livros em 2026 — Beyond the Spine Reviews](https://beyondthespinereviews.com/2025/12/29/best-book-tracker/).
 
-> Pendente: colher 2-3 prints reais de avaliações de usuários (Google Play / App Store) de cada concorrente, para ilustrar esta seção com evidências primárias, além das fontes secundárias acima.
+### Prints das avaliações no Google Play
+
+| <img src="imagens/avaliação/Skoob.png" width="800"> |
+| :---: |
+| *Figura X: Página do Skoob na Google Play Store.* |
+
+| <img src="imagens/avaliação/Goodreads.png" width="800"> |
+| :---: |
+| *Figura Y: Página do Goodreads na Google Play Store.* |
+
+| <img src="imagens/avaliação/StoryGraph.png" width="800"> |
+| :---: |
+| *Figura Z: Página do The StoryGraph na Google Play Store.* |
 
 ## 4) Preços e modelos de negócio
 
